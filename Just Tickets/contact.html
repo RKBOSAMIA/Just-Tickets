@@ -1,0 +1,55 @@
+<html>
+<title>Homepage</title>
+<link type="text/css" href="2.css" rel="stylesheet">
+</head>
+<br>
+<br>
+
+<center><img src="07.png"><p>J U S T T I C K E T S</p></center>
+<center><p class="p1">STAY TUNED . STAY UPDATED .
+<?php 
+session_start();
+if($_SESSION['sid']==session_id())
+{
+	echo $_SESSION['n'];
+}
+else
+{
+	header("Location:login.html");
+}
+?>
+</p></center>
+<body>
+
+
+<form action="homepage.php">
+<button class="button">Home</button>
+</form>
+<form action="contact.php">
+<button class="button">Contact Us</button>
+</form>
+<form action="about.php">
+<button class="button">About Us</button>
+</form>
+<form action="logout.php">
+<button class="button">Log Out</button>
+
+<p class="p3">KEEP IN TOUCH</p>
+<form action="contact1.php" method="post">
+<div class="top1">
+
+
+<input type="text" placeholder="Name" class="a"><br><br><br>
+<input type="email" placeholder="Email" class="a"><br><br><br>
+<input type="text" placeholder="Subject" class="a">
+
+
+</div>
+<div class="top2">
+
+<input type="text" placeholder="Message Texts.." class="b"><br><br>
+<input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>

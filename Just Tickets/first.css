@@ -1,0 +1,114 @@
+body
+{
+	
+	 background: url(Untitled.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+	}
+	
+#login 
+{
+	margin: 150px auto;
+	width: 400px;
+	
+
+}
+p
+{
+ font-family:"Calibri";
+}
+.p1
+	{
+		font-weight:bold;
+		font-size:30pt;
+		color:white;
+		font-family:'calibri';	
+	}
+
+.button {
+    
+    background-color: transparent;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+	font-family:calibri;
+    text-decoration: none;
+    display: inline-block;
+	width:182px;
+    font-size: 20px;
+    cursor: pointer;
+    float: left;
+}
+
+
+fieldset input[type="submit"] {
+    
+   
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+	font-family:calibri;
+    text-decoration: none;
+	width:364px;
+    display: inline-block;
+     font-size: 20px;
+	font-weight:bold;
+    cursor: pointer;
+    background-color: transparent; 
+    color: white; 
+   
+}
+
+fieldset input[type="submit"]:hover {
+	 background-color: green;
+    color: white;
+   
+}
+fieldset
+{
+	background-color:transparent;
+}
+.button:hover {
+    background-color: green;
+    color: white;
+	}
+	.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
+
+fieldset input[type="text"],input[type="password"],input[type="email"]
+{
+	background-color:transparent;
+	height: 50px;
+	width: 364px;
+	color:white;
+	font-family:'Calibri';
+	font-size:15pt;
+	
+	
+}
+a
+{
+	color:white;
+	font-family:calibri;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover
+{
+	color:blue;
+	-webkit-transition:0.4s;
+}
+
+img
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
